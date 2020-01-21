@@ -19,6 +19,7 @@ namespace AppearceOfString
                 if (str.Substring(i, 2).Equals("aa") && counter < 2)
                     return true;
             }
+
             return false;
         }
     }
